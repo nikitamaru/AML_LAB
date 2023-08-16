@@ -1,0 +1,228 @@
+@media(max-width:1199px) {
+
+  /* header*/
+  header .mainnav ul li { padding-right: 22px }
+
+  /* home-page-css */
+
+  /* unique-sponser */
+  .unique, .sponser { padding-top: 70px; padding-bottom: 70px }
+
+  /* Upload-01 */
+  .upload-data ul.tabs li a { font-size: 16px; line-height: 20px; width: 137px }
+
+
+  /* profile */
+  .profile .left-menu ul li{ display: block; padding:0; margin-bottom: 10px }
+  .profile .left-menu ul li:last-child{ margin-bottom: 0 }
+  .profile .left-menu em{ margin-bottom: 20px }
+  .profile .left-menu{ padding:20px 25px; }
+
+  /* songs */
+  .songs .video .row-data{ margin-right: 30px; margin-bottom: 30px; }
+  .songs .video .video-data span{ font-size: 25px; line-height: 30px }
+
+  /* song-detal */
+  .songs.songs-detail .video .row-data.details .video-data{ width: 40% }
+  .songs.songs-detail .video .row-data.details .video-banner{ width: 59% }
+  .songs.songs-detail .video .row-data.details .video-data .download a{ width: 130px }
+  .songs.songs-detail .video .row-data.details .video-data .download em{ padding-top: 15px; padding-bottom: 15px }
+  .songs.songs-detail .video .row-data.details .video-data .data{ padding-bottom: 12px }
+
+
+}
+
+
+@media(max-width:991px) {
+
+  h1 { font-size: 70px; line-height: 74px }
+  h2 { font-size: 36px; line-height: 40px }
+  h3 { font-size: 30px; line-height: 34px }
+  h4 { font-size: 20px; line-height: 24px }
+  h5 { font-size: 14px; line-height: 18px }
+  p { font-size: 12px; line-height: 16px }
+
+  /* home-page-css */
+
+  /* header*/
+  header .mainnav ul li { font-size: 14px }
+
+  /* unique*/
+  .unique .image { width: 80px; height: 80px }
+  .unique .image a { width: 40px }
+
+  /* dias */
+  .dias .store a { margin-right: 0; margin-bottom: 20px }
+
+  /* sing */
+  .sing, .unique, .sponser { padding-top: 50px; padding-bottom: 50px }
+  .sing .white-box ul li span { font-size: 12px; line-height: 18px }
+
+  /* footer */
+  footer .logo, header .logo a { width: 150px }
+  footer ul li a { padding: 0; font-size: 14px }
+
+  /* upload-01 */
+  .upload-data .content-box { padding: 70px 100px; }
+  .upload-data ul.tabs li a { font-size: 14px; line-height: 18px; width: 100px; }
+  .upload-data ul.tabs li a:after { border-left: 15px solid #fff; border-top: 18px solid transparent }
+  .upload-data ul.tabs li a:before { border-top: 18px solid transparent }
+  .upload-data .content-box p { font-size: 14px }
+  .upload footer ul li input { width: 130px }
+  .upload footer ul li span { margin: 0 10px; }
+  .upload footer .footer-data .song .song-data { padding-left: 10px }
+  .upload footer .footer-data .song .song-data span { font-size: 20px }
+  .upload .wombat-select-dropdown, .upload .wombat-select-value { font-size: 13px; line-height: 17px }
+  .upload footer ul li .wombat-select { width: 130px }
+
+  /* profile */
+  .profile .left-menu em{ font-size: 12px; line-height: 16px }
+
+  /* songs */
+  .songs .video .video-data span { font-size: 18px; line-height: 22px; padding-bottom: 15px}
+  .songs .video .video-data .data{ padding-bottom: 15px }
+  .songs .video .video-banner .play a{ width: 50px }
+  .songs .small-banner .filter-data li a { font-size: 16px; line-height: 20px}
+  .songs h3{ padding: 30px 0 }
+
+
+  /* song-detail */
+
+  .songs.songs-detail .video .row-data.details .video-data, .songs.songs-detail .video .row-data.details .video-banner{ width: 100% }
+  .songs.songs-detail .video .row-data.details .video-banner .video-img img{ border-bottom-left-radius: 0; border-top-right-radius: 12px }
+
+}
+
+@media(max-width:767px) {
+  h1 { font-size: 40px; line-height: 44px }
+  h2 { font-size: 24px; line-height: 28px; }
+  h3 { font-size: 20px; line-height: 24px }
+  h4 { font-size: 18px; line-height: 22px }
+
+  /* home-page-css */
+
+  /* unique*/
+  .unique ul li:last-child { margin-bottom: 40px }
+  .unique .text { padding-bottom: 40px }
+  .unique h2 { padding-bottom: 10px }
+
+  /* sing */
+  .sing, .unique, .sponser, .sponser h2 { padding-top: 30px; padding-bottom: 30px }
+
+  /* dias */
+  .dias { padding: 50px 0 0; }
+  .dias h2, .dias p { text-align: center; }
+  .dias p { padding-bottom: 20px }
+  .dias .dias-data { padding-left: 0 }
+  .dias a.mobile { display: block; padding: 0; margin: 0 auto; width: 200px }
+  .dias .store a { width: 150px; margin-right: 5px }
+  .dias .store a img, .dias a.mobile img { width: 100%; }
+  .dias .store { text-align: center; }
+
+  /* footer */
+  footer ul li a { font-size: 12px }
+
+  /* header */
+  header .menu { display: block; }
+  header .container { width: 100% }
+  header .menu a { display: inline-block; width: 20px }
+  header .mainnav ul li { display: block; padding: 0; color: #000; padding-bottom: 15px }
+  header .logo { display: inline-block; }
+  header .mainnav ul { left: 15px; display: none; position: absolute; text-align: left; background: #fff; right: 15px; top: 60px; padding: 20px 30px; box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.179879); -webkit-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.179879); -moz-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.179879); -ms-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.179879); }
+  header .mainnav ul li a { color: #08808a }
+  header .mainnav ul li a.search img { width: auto; }
+  header .mainnav ul li a.btn { font-size: 14px; width: 100% }
+  header .mainnav ul li .search-box { display: block !important; position: inherit; width: 100%; }
+  header .mainnav ul li .search-box input { width: 100%; }
+
+  /* upload-01 */
+  .btn-pink { font-size: 16px; line-height: 20px; padding: 10px 60px }
+  .upload-data .r-tabs-nav { display: none; }
+  .upload-data .r-tabs-accordion-title { display: block; }
+  .upload-data .content-box { padding: 30px 20px; margin: 0; }
+  .upload-data .r-tabs-accordion-title a { margin-bottom: 30px }
+  .upload-data .tab-content { display: none; }
+  .upload-data h3 { padding-bottom: 20px }
+  .upload-data h4 { padding-bottom: 30px }
+  .upload-data .privacy { padding: 40px 0 }
+  .upload-data .back-title a.back { top: 0; width: 21px }
+  .upload-data input { font-size: 14px; line-height: 18px }
+  .upload-data .album-art span, .upload-data .album-art span#btn { float: none; display: block; }
+  .upload-data textarea { font-size: 14px; line-height: 27px }
+  .upload-data .content-box .file-data .file-info span { font-size: 20px; line-height: 24px }
+  .upload-data .content-box .file-data .file-info em { font-size: 14px; line-height: 18px }
+  .upload-data .content-box.editing.thanks a { width: 100px }
+  .upload-data .content-box.editing.thanks a img { width: 100% }
+  .upload footer .footer-data { padding: 15px }
+  .upload footer .footer-data .song, .upload footer .footer-data .volume { text-align: center; float: none !important; padding-bottom: 30px }
+  .upload footer .footer-data .volume ul li { display: block; text-align: center; margin-bottom: 50px; }
+  .upload footer .footer-data .volume ul li:last-child { border-bottom: none; }
+  .upload footer ul li span { display: none; }
+
+  /* login-page */
+  .btn-facebook, .btn-google, .btn-apple { padding: 10px 15px; }
+  .form-details .social-button { display: block; text-align: center; }
+  .form-details { padding: 20px 70px; min-width: 340px; left: 15px; right: 15px }
+  .form-details .login li a { padding: 10px 33px; }
+
+  /* profile */
+  .profile .left-menu{ margin: 0 15px 15px; }
+  .profile .left-menu ul li{ display: inline-block; padding-right: 18px }
+  .profile .myprofile{ padding:30px 0; }
+
+
+  /* songs */
+  .songs .video .row-data{ width: 100%; }
+  .songs .small-banner .filter-data{ position: relative; bottom: -30px; margin-bottom: 40px }
+  .songs .small-banner .filter-data li a{ background: #f6f6f6; margin-bottom: 20px; display: block; }
+  .songs .small-banner .filter-data li{ display: block;text-align: center; padding:0; }
+
+
+  /* video-details */
+  .songs.songs-detail .video .row-data.details .video-data .download a{ width: 123px }
+
+
+
+}
+
+@media(max-width:567px) {
+
+  /* footer */
+  footer .logo, header .logo a { width: 120px }
+  footer .logo { padding-bottom: 15px }
+  footer .links, footer .logo { float: none; display: block; margin: 0 auto; }
+  footer ul { text-align: center; }
+  footer .links { top: 0 }
+
+  /* upload-01 */
+  .upload-data .content-box em { font-size: 14px; line-height: 18px }
+  .upload-data .content-box.editing ul.lyrics li .time, .upload-data .content-box.editing ul.lyrics li .song, .upload-data .content-box.editing ul.lyrics li .icons { display: block; width: 100% }
+  .upload-data .content-box.editing ul.lyrics li .time, .upload-data .content-box.editing ul.lyrics li .song { padding-bottom: 10px }
+  .upload-data .content-box.editing ul.lyrics li .icons, .upload-data .content-box.editing ul.lyrics li em { text-align: center; }
+  .upload-data .content-box.editing ul.lyrics.preview li em { text-align: left; }
+  .upload-data .content-box.editing ul.lyrics li em, .upload-data .content-box.editing ul.lyrics li span { font-size: 14px; line-height: 22px }
+  .upload-data .content-box.editing ul.lyrics li span:after, .upload-data .content-box.editing ul.lyrics li span:before { width: 21px; height: 21px }
+
+  /* login */
+  .form-details { padding: 20px 15px; }
+  .form-details .links, .form-details .phone .resend { margin-bottom: 15px }
+  .form-details .phone ul li { margin-right: 15px }
+  .form-details .phone ul li input { width: 40px; height: 40px }
+  .form-details .form-group { margin-bottom: 15px }
+  .form-details.signup-form .custom-checkbox { margin-bottom: 10px }
+  .form-details.signup-form .custom-checkbox span { font-size: 12px }
+}
+
+
+@media(max-width:374px) {
+
+  /* login */
+  .form-details .login li a { padding: 10px 20px; }
+  .form-details { min-width: 290px }
+}
+
+@media(max-height: 375px){
+
+  .banner.form{ height: 590px !important }
+
+}

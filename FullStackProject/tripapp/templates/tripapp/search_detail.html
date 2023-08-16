@@ -1,0 +1,17 @@
+{% extends 'tripapp/base.html' %}
+
+
+{% block content %}
+      <article class="post">
+        {% if user.is_authenticated %}
+          <aside class="actions">
+            <a class="btn btn-secondary" href="{% url 'search_edit' pk=search.pk %}">
+              *
+            </a>
+          </aside>
+        {% endif %}
+          <time>published: {{ search.created_date }} </time>
+          <h2>{{ search.search_title }}</h2>
+          <p> {{ search.text }} </p>
+      </article>
+{% endblock %}
